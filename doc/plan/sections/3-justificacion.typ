@@ -1,4 +1,5 @@
-#pagebreak()
+#block([])
+//#pagebreak()
 
 = Justificación // max 1 pagina
 == Teórica // ayudara? contexto social - contexto economico
@@ -13,7 +14,7 @@ Actualmente, existen numerosos estudios sobre la detección de enfermedades medi
 
 // La implementacion de inteligencia artificial basada en vision por computadora no es un trabajo facil y si existe alguna forma, generalmente es de pago. Lo que se busca crear en este estudio es una herramineta que facilite el diagnosstico precoz de neumonia, totalmente gratis junto con un manual de implementacion. Para que, de esta manera, cualquier centro medico tenga acceso a la tecnologia ayudando a salvar vidas y optimizar la atencion medica, especialmente en zonas rurales.
 
-La implementación de inteligencia artificial basada en visión por computadora no es una tarea sencilla y, cuando existen soluciones, suelen ser de pago. Este estudio busca desarrollar una herramienta gratuita que facilite el diagnóstico precoz de la neumonía, acompañada de un manual de implementación. De esta manera, se pretende que cualquier centro médico pueda acceder a esta tecnología, contribuyendo a salvar vidas y optimizar la atención médica, especialmente en áreas rurales.
+La implementación de inteligencia artificial basada en visión por computadora no es una tarea sencilla y, cuando existen soluciones, suelen ser de pago. Este estudio busca desarrollar una herramienta gratuita que facilite el diagnóstico precoz de la neumonía, utilizando el paradigma de aprendizaje federado y el uso de las imágenes del PACS (Sistema de archivo y comunicación de imágenes) de la clínica. De esta manera, se pretende que cualquier centro médico pueda acceder a esta tecnología, contribuyendo a salvar vidas y optimizar la atención médica, especialmente en áreas rurales.
 
 
 == Metodológica // sirve para cubrir partes de una investigacion
