@@ -15,7 +15,7 @@
   let verbo = if variable.signo == 0 [reduce] else [mejora]
   let prefijo = if variable.gender == 0 [la] else [el]
 
-  let objetivo = [Determinar en que medida #independiente #verbo #prefijo #variable.text #post]
+  let objetivo = [Determinar en que medida #independiente #verbo #prefijo #variable.text #post.]
   objetivos.push(objetivo)
 
   let independiente2 = highlight(fill: aqua, independiente)

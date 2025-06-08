@@ -5,6 +5,8 @@
 = Metodología
 
 == Tipo de investigación
+/* cita */. /* explicación */.
+
 == Enfoque
 == Diseño
 == Nivel / Alcance

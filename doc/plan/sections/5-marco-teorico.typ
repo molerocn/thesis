@@ -27,7 +27,7 @@ En cuanto a la precisión de diagnóstico, #pc[@balogh2015] sostiene que es esen
 A continuación, #pc[@launay2016] establece el tiempo de diagnóstico como el intervalo entre la manifestación de los primeros síntomas y la confirmación de la enfermedad. Basándonos en esto, resulta crucial examinar esta variable para evaluar su duración, dado que, reducir el tiempo de diagnóstico se convierte en esencial para optimizar la atención medica.
 
 // Deep learning
-Con el propósito de definir la tecnología que se utilizara, #pc[@goodfellow2016] lo definen como un subconjunto del machine learning centrado en algoritmos inspirados en las redes neuronales artificiales, que buscan modelar representaciones jerárquicas de los datos, permitiendo que las máquinas comprendan conceptos más complejos. De manera similar, #pc[@chollet2017] explica el deep learning como un enfoque que permite a las máquinas aprender a través de la experiencia, entendiendo el mundo mediante una jerarquía de conceptos. El segundo autor destaca que las redes profundas pueden formar ideas complejas a partir de cosas más simples, y resalta que las capas del medio son clave para entender bien los datos.
+Con el propósito de definir la tecnología que a utitlizar, #pc[@goodfellow2016] lo definen como un subconjunto del machine learning centrado en algoritmos inspirados en las redes neuronales artificiales, que buscan modelar representaciones jerárquicas de los datos, permitiendo que las máquinas comprendan conceptos más complejos. De manera similar, #pc[@chollet2017] explica el deep learning como un enfoque que permite a las máquinas aprender a través de la experiencia, entendiendo el mundo mediante una jerarquía de conceptos. continuando
 
 
 // Transfer learning

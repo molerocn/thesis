@@ -28,9 +28,7 @@
 #include "sections/6-metodologia.typ"
 
 #pagebreak()
-#bibliography(
-  "ref.bib",
-  title: [Referencias bibliográficas],
-)
+#bibliography("ref.bib")
+// title: [Referencias bibliográficas],
 
 #include "sections/zanexos.typ"

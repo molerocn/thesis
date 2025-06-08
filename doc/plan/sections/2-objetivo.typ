@@ -4,7 +4,7 @@
 = Objetivo general y específicos
 == Objetivo general
 
-Determinar en qué medida el modelo de deep learning mejora la eficiencia de diagnóstico de neumonía en los pacientes del hospital SISOL, 2026
+#objetivos.at(0)
 
 == Objetivos específicos
 
