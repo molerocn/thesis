@@ -7,8 +7,8 @@
     [Juan Carlos Molero Rojas],
   ),
   docentes: (
-    [Ing. Cuya],
-    [Ing. Sierra],
+    [Cuya Camara, Jose Luis],
+    [Sierra Liñan, Fernando Alex]
   ),
   due-date: [Lima, Perú],
   font-family: "Libertinus Serif",
@@ -32,6 +32,4 @@
 
 #include "sections/zanexos.typ"
 
-
-
-  // title: [Deep learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía en el hospital SISOL Salud en San Juan de Lurigancho utilizando el paradigma de Federated Learning],
+// title: [Deep learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía en el hospital SISOL Salud en San Juan de Lurigancho utilizando el paradigma de Federated Learning],
