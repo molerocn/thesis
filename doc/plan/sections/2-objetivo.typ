@@ -1,4 +1,4 @@
-#import "../anexos/matriz-consistencia.typ": objetivos
+#import "./anexos/matriz-consistencia.typ": objetivos
 #pagebreak()
 
 = Objetivo general y específicos

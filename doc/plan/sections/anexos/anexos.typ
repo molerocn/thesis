@@ -5,8 +5,8 @@
 
 // ishikawa -------------------------------------------------
 #apa-figure(
-  image("../images/ishikawa.png"),
-  caption: [Diagrama de Ishikawa (elaboración propia )],
+  image("../../images/ishikawa.png"),
+  caption: [Diagrama de Ishikawa (Elaboración propia)],
   label: "fig:ishikawa"
 )
 

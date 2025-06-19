@@ -30,6 +30,5 @@
 #bibliography("ref.bib")
 // title: [Referencias bibliográficas],
 
-#include "sections/zanexos.typ"
-
+#include "sections/anexos/anexos.typ"
 // title: [Deep learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía en el hospital SISOL Salud en San Juan de Lurigancho utilizando el paradigma de Federated Learning],

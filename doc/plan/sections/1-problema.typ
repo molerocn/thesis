@@ -1,4 +1,4 @@
-#import "../anexos/matriz-consistencia.typ": master
+#import "./anexos/matriz-consistencia.typ": master
 #pagebreak()
 = Problema de Investigación // maximo una pagina
 

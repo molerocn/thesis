@@ -1,0 +1,33 @@
+nodo: Nodo {
+    local_server: Servidor local {
+        # icon: https://www.svgrepo.com/show/499814/server.svg
+        client: Cliente {
+            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+        }
+    }
+    pacs: PACS {
+        icon: "https://www.svgrepo.com/show/148158/lungs-radiography.svg"
+    }
+    pacs -> local_server #: "Enviar radiografías"
+}
+
+server: Servidor central {
+    backend: Backend {
+        icon: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/fastapi-91dvq8q5ewijkczjmd9bcb.png/fastapi-ggmxtn5w3qqwks1i5jnx2p.png?_a=DATAdtAAZAA0"
+    }
+
+    model: Modelo de Deep Learning {
+      icon: https://www.svgrepo.com/show/450794/deep-learning.svg
+    }
+
+    db: Base de datos {
+      shape: cylinder
+      icon: https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg
+    }
+
+    backend -> model
+    backend -> db
+}
+
+nodo.local_server.client -> server.backend
+server.backend -> nodo.local_server.client
