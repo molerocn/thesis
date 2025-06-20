@@ -1,8 +1,10 @@
 #import "@local/utp-doc:1.0.0": *
 
 #show: config.with(
-  carrera: [Ingeniería de Software],
-  title: [Deep Learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía con aprendizaje federado en el hospital SISOL Salud de San Juan de Lurigancho],
+  campus: [San Juan de Lurigancho],
+  carrera: [Carrera de Ingeniería de Software],
+  tipo_trabajo: [Proyecto de trabajo de investigación],
+  title: [Deep Learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía con aprendizaje federado en la clínica San Juan Bautista],
   autores: (
     [Juan Carlos Molero Rojas],
   ),
@@ -10,11 +12,11 @@
     [Cuya Camara, Jose Luis],
     [Sierra Liñan, Fernando Alex]
   ),
-  due-date: [Lima, Perú],
+  fecha: [Mayo, 2025],
+  ciudad: [Lima, Perú],
   font-family: "Libertinus Serif",
   font-size: 12pt,
 )
-
 #outline()
 //#pagebreak()
 // #outline(target: figure.where(kind: table), title: [Índice de Tablas])
@@ -31,4 +33,5 @@
 // title: [Referencias bibliográficas],
 
 #include "sections/anexos/anexos.typ"
-// title: [Deep learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía en el hospital SISOL Salud en San Juan de Lurigancho utilizando el paradigma de Federated Learning],
+
+// excelente fuente de guia "https://www.v7labs.com/blog/federated-learning-guide"

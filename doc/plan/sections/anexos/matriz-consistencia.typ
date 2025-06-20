@@ -28,7 +28,7 @@
   ))
 }
 
-#let rows = variables.len()*2-1
+#let rows = variables.len() * 2 - 1
 
 #(
   master
@@ -41,6 +41,24 @@
         #parbreak()
         *Variable dependientes*:\
         #list(
+          indent: 5pt,
+          ..variables.map(variable => {
+            variable.text
+          }),
+        )
+      ],
+    )
+)
+
+// TODO: agregar dimensiones y metodologia de "https://overleaf.com"
+#(
+  master
+    .at(0)
+    .insert(
+      "dimensiones",
+      table.cell(rowspan: rows)[
+        #list(
+          indent: 5pt,
           ..variables.map(variable => {
             variable.text
           }),
@@ -52,19 +70,17 @@
   master
     .at(0)
     .insert(
-      "dimensiones",
-      table.cell(rowspan: rows)[
-        Dimensiones
-      ],
-    )
-)
-#(
-  master
-    .at(0)
-    .insert(
       "metodologia",
       table.cell(rowspan: rows)[
-        Metodología
+        *Tipo*: Aplicada \
+        *Enfoque*: Cuantitativo \
+        *Nivel*: Explicativo \
+        *Diseño*: Experimental (pre y pos) \
+        *Técnica*: Observación \
+        *Instrumento*: Ficha de observación \
+        *Población*: pacientes del hospital SISOL \
+        *Muestra*: 51 pacientes \
+        *Muestreo*: Probabilístico simple 
       ],
     )
 )
@@ -81,9 +97,7 @@
     flipped: true,
     margin: 2.5em,
   )
-  set text(
-    size: 11pt
-  )
+  set text(size: 10pt)
   pagebreak()
 
   apa-figure(
@@ -115,5 +129,3 @@
 // } else {
 //   center
 // },
-//
-// adios
