@@ -79,7 +79,7 @@
         *Técnica*: Observación \
         *Instrumento*: Ficha de observación \
         *Población*: pacientes del hospital SISOL \
-        *Muestra*: 51 pacientes \
+        *Muestra*: 50 pacientes \
         *Muestreo*: Probabilístico simple 
       ],
     )
@@ -107,7 +107,7 @@
       table.header(
         [Problemas],
         [Objetivos],
-        [Hipotesis],
+        [Hipótesis],
         [Variables],
         [Dimensiones],
         [Metodología],

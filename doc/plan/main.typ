@@ -17,9 +17,12 @@
   font-family: "Libertinus Serif",
   font-size: 12pt,
 )
-#outline()
-//#pagebreak()
-// #outline(target: figure.where(kind: table), title: [Índice de Tablas])
+
+#outline(depth: 2)
+#pagebreak()
+#outline(target: figure.where(kind: image), title: [Índice de figuras])
+#pagebreak()
+#outline(target: figure.where(kind: table), title: [Índice de tablas])
 
 #include "sections/1-problema.typ"
 #include "sections/2-objetivo.typ"

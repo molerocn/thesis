@@ -19,17 +19,21 @@ La presente investigación es de tipo aplicada porque tiene el objetivo de imple
 /* explicación */ El estudio que se presenta es explicativo ya que busca comprender cómo los modelos de deep learning pueden identificar la presencia de neumonía en imágenes médicas. /* cita */ Según #pc([@guevara2020]), la investigación explicativa es la que posee una relación causal, no solo busca detallar o aproximarse a un problema, sino que busca identificar las causas que lo originaron.
 
 === Población 
-/* explicación */ El presente estudio usara el tipo de poblacion finita, ya que el proyecto de deep learning se probara con 50 pacientes de la clinicia San Juan Bautista. /* cita */ Según 
+/* explicación */ El presente estudio toma como población a los pacientes atendidos en la clínica San Juan Bautista 2026, específicamente aquellos que presentan sintomatología respiratoria compatible con infecciones pulmonares, como la neumonía. /* cita */ Según #pc[@willie2024], la población en una investigación se entiende como el conjunto de individuos que comparten características dentro de un contexto geográfico o institucional determinado, y compone la base para formular hipótesis relevantes al estudio.
 
 === Muestra // (no probabilistica - metodo por conveniencia)
+/* explicación */ El estudio realizado usa el tipo de muestra no probabilística con el método por conveniencia, ya que se seleccionarán 50 pacientes disponibles en la Clínica San Juan Bautista, con quienes se tiene acceso directo para aplicar y validar el modelo de detección de neumonía sin necesidad de una selección aleatoria. /* cita */ De acuerdo con #pc[@willie2024], la muestra es un subconjunto específico de la población general, seleccionado por criterios para lograr el objetivo de investigación. Además, citando a #pc[@ahmed2024],existen tipos de muestra como el muestreo no probabilístico el cual se trata en la selección no aleatoria de los participantes y dentro de sus técnicas, se encuentra el muestreo por conveniencia que consiste en seleccionar a quienes están más fácilmente disponibles.
 
 === Técnicas // (observacion)
+/* explicación */ La presente investigación utiliza la técnica de observación porque se busca estar presente durante la fase de experimentación en la clínica, permitiendo anotar directamente los resultados y el comportamiento del modelo en tiempo real. /* cita */ Citando a #pc[@medina2023], la técnica de observación consiste en registrar el comportamiento, acciones o fenómenos tal como ocurren en su contexto natural, permitiendo obtener datos objetivos y directos del entorno.
 
+// TODO: agregar explicacion
 === Instrumentos // (ficha de observacion)
+/* explicación */ En la presente investigación se utilizará el instrumento de ficha de observación porque permite registrar de forma estructurada los resultados del modelo de diagnóstico aplicado a cada paciente. /* cita */ En palabras de #pc[@medina2023], la ficha de observación es de los instrumentos mas utilizados en trabajos de investigación, cuya función es documentar detalladamente lo observado según categorías previamente definidas, facilitando así su análisis posterior.
 
+// TODO: agregar explicacion
 === Aspectos éticos //  (mencionar aspectos eticos - como privacidad de los datos cuando se implemente en la clinica)
-
-// no se si agregar o de que otra manera mencionarlo -> == Análisis de datos // (mencionar indicadores tecnicos y de impacto clinico que se utilizaran)
+/* explicación */ Este estudio considera los aspectos éticos fundamentales, asegurando que los datos clínicos utilizados serán tratados con estricta confidencialidad y exclusivamente con fines de investigación. Durante la validación del modelo en la clínica, se garantizará el anonimato de los pacientes y se solicitará consentimiento informado. /* cita */ Según #pc[@farhud2021], antes de implementar IA en contextos clínicos, se deben considerar principios éticos fundamentales como la autonomía, la beneficencia, la no maleficencia y la justicia.
 
 #pagebreak()
 
