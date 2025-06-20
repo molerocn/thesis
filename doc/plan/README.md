@@ -17,10 +17,7 @@ Documento previo al desarrollo de la tesis de  "**Deep Learning en la práctica 
 5. Uso de base de datos digitales (2 pts): ✅
     > Todas las referencias y citas a literatura científica provienen de revistas científicas indexadas en bases de datos especializadas.
 
-todo:
-- matriz de operacion de variables
-
-- cambiar variables dependientes
+todo proxima entrega:
+- agregar conceptos de marco teorico
 - numeracion en secciones del documento
-- agregar conceptos de marco teorico (federated learning)
 - agregar analisis de datos (aspecto metodologia)

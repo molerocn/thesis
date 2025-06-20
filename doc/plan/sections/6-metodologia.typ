@@ -30,6 +30,9 @@ La presente investigación es de tipo aplicada porque tiene el objetivo de imple
 === Instrumentos // (ficha de observacion)
 /* explicación */ En la presente investigación se utilizará el instrumento de ficha de observación porque permite registrar de forma estructurada los resultados del modelo de diagnóstico aplicado a cada paciente. /* cita */ En palabras de #pc[@medina2023], la ficha de observación es de los instrumentos mas utilizados en trabajos de investigación, cuya función es documentar detalladamente lo observado según categorías previamente definidas, facilitando así su análisis posterior.
 
+== Análisis de datos
+En el presente estudio el análisis de datos es importante porque permite transformar un conjunto de datos disponible en una base sólida y contextualizada para construir un modelo clínicamente útil y técnicamente robusto. /* cita */ Según #pc[@sarker2021], el análisis de datos se refiere al procesamiento de datos mediante teorías y herramientas estadísticas, empíricas o lógicas, con el fin de extraer información útil con propósitos prácticos.
+
 === Aspectos éticos //  (mencionar aspectos eticos - como privacidad de los datos cuando se implemente en la clinica)
 /* explicación */ Este estudio considera los aspectos éticos fundamentales, asegurando que los datos clínicos utilizados serán tratados con estricta confidencialidad y exclusivamente con fines de investigación. Durante la validación del modelo en la clínica, se garantizará el anonimato de los pacientes y se solicitará consentimiento informado. /* cita */ Según #pc[@farhud2021], antes de implementar IA en contextos clínicos, se deben considerar principios éticos fundamentales como la autonomía, la beneficencia, la no maleficencia y la justicia.
 

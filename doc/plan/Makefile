@@ -14,7 +14,7 @@ $(DIST_DIR)/%.png: $(SRC_DIR)/%.drawio
 clean_svgs:
 	@rm -f $(DIST_DIR)/*.png
 
-build: diagrams
+build:
 	@typst compile main.typ dist/plan_tesis.pdf
 
 run: build
