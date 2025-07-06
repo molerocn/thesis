@@ -4,7 +4,7 @@
   campus: [San Juan de Lurigancho],
   carrera: [Carrera de Ingeniería de Software],
   tipo_trabajo: [Proyecto de trabajo de investigación],
-  title: [Deep Learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía con aprendizaje federado en la clínica San Juan Bautista],
+  title: [Deep Learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía con aprendizaje federado para mejorar la eficiencia diagnóstica en la clínica San Juan Bautista],
   autores: (
     [Juan Carlos Molero Rojas],
   ),
@@ -23,6 +23,8 @@
 #outline(target: figure.where(kind: image), title: [Índice de figuras])
 #pagebreak()
 #outline(target: figure.where(kind: table), title: [Índice de tablas])
+
+// TODO: numeracion en secciones del documento
 
 #include "sections/1-problema.typ"
 #include "sections/2-objetivo.typ"

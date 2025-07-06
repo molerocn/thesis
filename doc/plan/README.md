@@ -16,8 +16,3 @@ Documento previo al desarrollo de la tesis de  "**Deep Learning en la práctica 
     > Se utilizan todas las citas y referencias necesarias para evidenciar el origen de las fuentes de información utilizadas. Además, estas se elaboran según las normas de citado seleccionadas para el trabajo.
 5. Uso de base de datos digitales (2 pts): ✅
     > Todas las referencias y citas a literatura científica provienen de revistas científicas indexadas en bases de datos especializadas.
-
-todo proxima entrega:
-- agregar conceptos de marco teorico
-- numeracion en secciones del documento
-- agregar analisis de datos (aspecto metodologia)

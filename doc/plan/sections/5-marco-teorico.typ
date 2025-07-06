@@ -30,16 +30,17 @@ En cuanto a la precisión de diagnóstico, #pc[@balogh2015] sostiene que es esen
 // tiempo de diagnostico
 A continuación, #pc[@launay2016] establece el tiempo de diagnóstico como el intervalo entre la manifestación de los primeros síntomas y la confirmación de la enfermedad. Basándonos en esto, resulta crucial examinar esta variable para evaluar su duración, dado que, reducir el tiempo de diagnóstico se convierte en esencial para optimizar la atención medica.
 
-// TODO: concepto de priorizacion de casos graves
+En cuanto a la priorización de casos graves, #pc[@déry2020] mencionan que, la priorización de pacientes se define como el proceso de clasificar derivaciones clínicas en un orden específico según criterios explícitos, con el objetivo de mejorar la equidad y la transparencia en el acceso a los servicios de salud cuando la demanda supera la capacidad del sistema. Además, los autores argumentan que esta acción es beneficiosa porque permite intervenir primero en quienes presentan mayores necesidades clínicas o mayor riesgo de deterioro, reduciendo así el potencial de secuelas físicas o psicológicas derivadas de una espera prolongada.
+
 
 // Deep learning
 Con el propósito de definir la tecnología que a utitlizar, #pc[@goodfellow2016] lo definen como un subconjunto del machine learning centrado en algoritmos inspirados en las redes neuronales artificiales, que buscan modelar representaciones jerárquicas de los datos, permitiendo que las máquinas comprendan conceptos más complejos. De manera similar, #pc[@chollet2017] explica el deep learning como un enfoque que permite a las máquinas aprender a través de la experiencia, entendiendo el mundo mediante una jerarquía de conceptos. continuando
 
+// TODO: agregar una cita mas a federated learning
+// Federated learning
+Para poder asegurar la privacidad de los datos y entender como lograr este objetivo en un entorno clínico real, es importante definir el paradigma de federated learning. #pc[@yurdem2024] lo define como una técnica de aprendizaje automático distribuido que permite que varios dispositivos o nodos colaboren en el entrenamiento de un modelo común sin compartir los datos originales. En lugar de centralizar los datos, cada participante entrena localmente y solo envía actualizaciones del modelo, lo que mejora la privacidad, seguridad, eficiencia y escalabilidad del proceso.
 
 // TODO: concepto de transfer learning
-// Transfer learning
-// En cuanto al transfer learning, \textcite{rosebrock2017} lo explica como la reutilización de un modelo preentrenado en una tarea para adaptarlo a una tarea relacionada pero diferente, destacando su utilidad cuando los datos disponibles son limitados. En contraste, \textcite{pan2010} ofrece una definición más formal, indicando que se trata de aplicar el conocimiento aprendido en una tarea fuente para mejorar el aprendizaje en una tarea objetivo distinta pero relacionada.
 
-
-// TODO: concepto de federated learning
 // TODO: concepto de fine tunning
+//

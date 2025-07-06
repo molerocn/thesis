@@ -10,6 +10,7 @@
   label: "fig:ishikawa"
 )
 
+// FIX: agregar pasos de investigacion en el diagrama de gantt
 // diagrama de gantt --------------------
 #apa-figure(
   image("../../images/gantt.png"),
