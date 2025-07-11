@@ -9,7 +9,7 @@
 // deep learning ✅
 // federated learning
 
-= Marco Teórico
+= Marco teórico
 == Fundamentos teóricos
 
 En el desarrollo de un modelo para la detección de neumonía, es importante  poder comprender las teorías y conceptos que fundamentan este desarrollo. A continuación, se presenta un análisis teórico que sustenta el proyecto, abordando aspectos esenciales como deep learning, neumonía, diagnóstico clínico, precisión de diagnóstico y tiempo de diagnóstico.

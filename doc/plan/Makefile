@@ -15,6 +15,7 @@ clean_svgs:
 	@rm -f $(DIST_DIR)/*.png
 
 build:
+	@mkdir -p dist
 	@typst compile main.typ dist/plan_tesis.pdf
 
 run: build

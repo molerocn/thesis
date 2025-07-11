@@ -59,7 +59,7 @@
     flipped: true,
     margin: 2.5em,
   )
-  set text(size: 9.6pt)
+  set text(size: 9.4pt)
   pagebreak()
   apa-figure(
     caption: [Matriz de operación de variables (Elaboración propia)],
