@@ -10,15 +10,6 @@
   label: "fig:ishikawa"
 )
 
-// FIX: agregar pasos de investigacion en el diagrama de gantt
-// diagrama de gantt --------------------
-#apa-figure(
-  image("../../images/gantt.png"),
-  caption: [Diagrama de gantt (Elaboración propia)],
-  label: "fig:diagrama_gantt"
-)
-
-
 #include "../anexos/matriz-consistencia.typ"
 #include "../anexos/matriz_operaciones_variables.typ"
 

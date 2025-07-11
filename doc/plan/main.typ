@@ -4,7 +4,7 @@
   campus: [San Juan de Lurigancho],
   carrera: [Carrera de Ingeniería de Software],
   tipo_trabajo: [Proyecto de trabajo de investigación],
-  title: [Deep Learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía con aprendizaje federado para mejorar la eficiencia diagnóstica en la clínica San Juan Bautista],
+  title: [Deep Learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía con el paradigma de federated learning para mejorar la eficiencia diagnóstica en la clínica San Juan Bautista, 2026],
   autores: (
     [Juan Carlos Molero Rojas],
   ),
@@ -18,6 +18,8 @@
   font-size: 12pt,
 )
 
+#include "sections/resumen.typ"
+
 #outline(depth: 2)
 #pagebreak()
 #outline(target: figure.where(kind: image), title: [Índice de figuras])
@@ -25,6 +27,7 @@
 #outline(target: figure.where(kind: table), title: [Índice de tablas])
 
 // TODO: numeracion en secciones del documento
+// TODO: comprobar typos con gemini
 
 #include "sections/1-problema.typ"
 #include "sections/2-objetivo.typ"
@@ -32,6 +35,8 @@
 #include "sections/4-antecedentes.typ"
 #include "sections/5-marco-teorico.typ"
 #include "sections/6-metodologia.typ"
+#include "sections/7-cronograma.typ"
+#include "sections/8-presupuesto.typ"
 
 #pagebreak()
 #bibliography("ref.bib")

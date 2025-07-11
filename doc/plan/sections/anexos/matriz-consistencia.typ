@@ -114,8 +114,8 @@
         *Diseño*: Experimental (pre y pos) \
         *Técnica*: Observación \
         *Instrumento*: Ficha de observación \
-        *Población*: pacientes del hospital SISOL \
-        *Muestra*: 50 pacientes \
+        *Población*: 1000 pacientes del hospital SISOL \
+        *Muestra*: 51 pacientes \
         *Muestreo*: Probabilístico simpleo simpleo simple
         *Muestreo*: Probabilístico simple 
       ],
@@ -153,7 +153,7 @@
       ..mytable,
       table.hline(),
     ),
-    caption: [Matriz de consistencia (elaboración propia)],
+    caption: [Matriz de consistencia (Elaboración propia)],
     label: "tab:matriz-consistencia",
   )
 }
