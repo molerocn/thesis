@@ -26,7 +26,6 @@
 #pagebreak()
 #outline(target: figure.where(kind: table), title: [Índice de tablas])
 
-// TODO: numeracion en secciones del documento
 // TODO: comprobar typos con gemini
 
 #include "sections/1-problema.typ"

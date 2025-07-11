@@ -45,14 +45,14 @@
   ),
 )
 
-#let post = [en los pacientes de la clinica San Juan Bautista 2026]
+#let post = [en los pacientes de la clínica San Juan Bautista 2026]
 #let variable_independiente = [el modelo de deep learning]
 
 #for variable in variables_dependientes {
   let verbo = if variable.signo == 0 [reduce] else [mejora]
   let prefijo = if variable.gender == 0 [la] else [el]
 
-  let objetivo = [Determinar en que medida #variable_independiente #verbo #prefijo #variable.text #post.]
+  let objetivo = [Determinar en qué medida #variable_independiente #verbo #prefijo #variable.text #post.]
   objetivos.push(objetivo)
 
   let independiente2 = highlight(fill: aqua, variable_independiente)
