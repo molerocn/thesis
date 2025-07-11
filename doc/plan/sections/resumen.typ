@@ -1,6 +1,11 @@
 = Resumen
 
-// TODO: completar el resumen y agregar keywords
+#[
+  #set par(first-line-indent: 0in)
+
+  Resumen
+]
+
 #v(1fr)
-Palabras clave: holamundo, xd
+#emph[Palabras clave]: deep learning, inteligencia artificial, federated learning, neumonía, radiografías de torax
 #pagebreak()

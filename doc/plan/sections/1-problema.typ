@@ -1,6 +1,6 @@
 #import "./anexos/matriz-consistencia.typ": master
 #pagebreak()
-= Problema de Investigación // maximo una pagina
+= Problema de investigación // maximo una pagina
 
 La detección de neumonía a partir de radiografías sigue dependiendo en gran medida de la interpretación manual de especialistas, lo cual puede generar retrasos en el diagnóstico y, en ocasiones, errores graves que afectan directamente la salud de los pacientes. Aunque el uso de herramientas tecnológicas ha ganado terreno en algunas áreas, aún persiste una brecha significativa en la calidad de atención, especialmente en zonas rurales, donde la disponibilidad de médicos especializados es limitada. 
 
