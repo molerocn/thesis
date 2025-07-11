@@ -1,6 +1,6 @@
 # Plan de tesis
 
-Documento previo al desarrollo de la tesis de  "**Deep Learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía con aprendizaje federado en la clínica San Juan Bautista**".
+Documento previo al desarrollo de la tesis de  "**Deep Learning en la práctica médica: Implementación y validación de un modelo para la detección de neumonía con el paradigma de federated learning para mejorar la eficiencia diagnóstica en la clínica San Juan Bautista, 2026**".
 
 ---
 

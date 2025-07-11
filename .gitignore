@@ -1,5 +1,4 @@
 dist/
-*.pdf
 .vscode/
 .trash/
 *.bkp
