@@ -33,9 +33,10 @@
 #include "sections/3-justificacion.typ"
 #include "sections/4-antecedentes.typ"
 #include "sections/5-marco-teorico.typ"
-#include "sections/6-metodologia.typ"
-#include "sections/7-cronograma.typ"
-#include "sections/8-presupuesto.typ"
+#include "sections/6-hipotesis.typ"
+#include "sections/7-metodologia.typ"
+#include "sections/8-cronograma.typ"
+#include "sections/9-presupuesto.typ"
 
 #pagebreak()
 #bibliography("ref.bib")

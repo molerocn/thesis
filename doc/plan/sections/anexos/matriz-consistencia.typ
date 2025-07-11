@@ -1,6 +1,7 @@
 #import "@local/utp-doc:1.0.0": apa-figure
 
 #let objetivos = ()
+#let hipotesis_list = ()
 #let master = ()
 #let variables_dependientes = (
   (text: [eficiencia de diagnóstico], signo: 1, gender: 0),
@@ -55,13 +56,18 @@
   let objetivo = [Determinar en qué medida #variable_independiente #verbo #prefijo #variable.text #post.]
   objetivos.push(objetivo)
 
-  let independiente2 = highlight(fill: aqua, variable_independiente)
-  let variable2 = highlight(variable.text)
+  // -------------------------------
+  let hipotesis = [El modelo de deep learning #verbo significativamente #prefijo #variable.text #post.]
+  hipotesis_list.push(hipotesis)
+  // -------------------------------
+
+  let variable_independiente_highlighted = highlight(fill: aqua, variable_independiente)
+  let variable_highlighted = highlight(variable.text)
 
   master.push((
     problema: [¿En que medida #variable_independiente #verbo #prefijo #variable.text #post?],
-    objetivo: [Determinar en que medida #independiente2 #verbo #prefijo #variable2 #post.],
-    hipotesis: [#independiente2 #verbo significativamente #prefijo #variable2 #post.],
+    objetivo: [Determinar en que medida #variable_independiente_highlighted #verbo #prefijo #variable_highlighted #post.],
+    hipotesis: [#variable_independiente_highlighted #verbo significativamente #prefijo #variable_highlighted #post.],
   ))
 }
 

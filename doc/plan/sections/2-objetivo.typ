@@ -2,9 +2,10 @@
 #pagebreak()
 
 = Objetivo general y específicos
+
 == Objetivo general
 
-#objetivos.at(0)
+*OG*: #objetivos.at(0)
 
 == Objetivos específicos
 
