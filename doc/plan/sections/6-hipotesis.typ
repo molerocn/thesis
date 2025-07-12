@@ -2,13 +2,13 @@
 
 #pagebreak()
 
-= Hipotesis
+= Hipótesis
 
-== Hipotesis general
+== Hipótesis general
 
 *HG*: #hipotesis_list.at(0)
 
-== Hipotesis específicas
+== Hipótesis específicas
 
 #list(
     ..hipotesis_list.slice(1, hipotesis_list.len()).enumerate().map((item) => [

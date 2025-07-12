@@ -3,7 +3,7 @@
 #pagebreak()
 = Presupuesto
 
-La presente sección detalla los recursos económicos necesarios para la ejecución del proyecto de investigación. El presupuesto contempla los costos relacionados con software, conectividad, materiales, capacitación, validación, y otros gastos asociados al desarrollo, implementación y evaluación del modelo de deep learning aplicado al diagnóstico de neumonía, incluyendo su posterior adaptación al enfoque de Federated Learning. A continuación, se presenta la estimación de costos:
+La presente sección detalla el presupuesto destinado a la ejecución del proyecto de investigación. Este contempla los costos relacionados con software, conectividad, materiales, capacitación, validación, y otros gastos asociados al desarrollo, implementación y evaluación del modelo de deep learning aplicado al diagnóstico de neumonía, incluyendo su posterior adaptación al enfoque de Federated Learning. A continuación, se presenta la estimación de costos:
 
 #apa-figure(
   table(
@@ -29,6 +29,6 @@ La presente sección detalla los recursos económicos necesarios para la ejecuci
     table.hline(),
     [Total estimado], [], [], [], [1351.00],
   ),
-  caption: [Tabla de presupuesto del trabajo de investigación (Elaboración propia)],
+  caption: [Tabla de presupuesto destinado al desarrollo del estudio (Elaboración propia)],
   label: "tab:presupuesto",
 )

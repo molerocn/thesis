@@ -26,8 +26,6 @@
 #pagebreak()
 #outline(target: figure.where(kind: table), title: [Índice de tablas])
 
-// TODO: comprobar typos con gemini
-
 #include "sections/1-problema.typ"
 #include "sections/2-objetivo.typ"
 #include "sections/3-justificacion.typ"

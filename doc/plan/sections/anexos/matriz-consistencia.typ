@@ -128,12 +128,12 @@
     )
 )
 
-#let mytable = ()
+#let myTable = ()
 
 #for item in master {
-  mytable = mytable + item.values() + ([], [], [])
+  myTable = myTable + item.values() + ([], [], [])
 }
-#mytable.insert(6, table.hline())
+#myTable.insert(6, table.hline())
 
 #{
   set page(
@@ -156,7 +156,7 @@
         [Metodología],
       ),
       table.hline(stroke: 0.5pt),
-      ..mytable,
+      ..myTable,
       table.hline(),
     ),
     caption: [Matriz de consistencia (Elaboración propia)],
